@@ -1,0 +1,10 @@
+class Integer(object):
+	def __init__(self, number_to_set=""):
+		self.number = number_to_set
+
+	def display(self):
+		print self.number
+
+if __name__=="__main__":
+	x = Integer(300)
+	x.display()
